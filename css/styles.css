@@ -1,0 +1,188 @@
+*
+{
+box-sizing: border-box;
+}
+:root
+{
+    --couleurVert:#2ECC71;
+    --couleurBleue: #08F9F6;
+    --couleurMarron:#CA6F1E;
+    --couleurArgent:#E5E7E9  ;
+    --couleurBleuFonce:#154360;
+    --couleurTransparent: rgba(0,0,0,0);
+}
+
+body
+{
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.5;
+}
+iframe
+{
+    width: 100%;
+    border: none;
+    height: 350px;
+}
+
+#accueil
+{
+    background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover2.webp) no-repeat center/cover;
+    height: 300px;
+    position: relative;
+}
+
+#nom
+{
+ color: var(--couleurArgent);
+ text-align: center;
+ margin-top: 50px;
+ font-size: 30px;
+}
+.accueil-contact
+{
+    position:absolute;
+    top: 70px;
+    left: 10px;
+    border-left: 4px solid var(--couleurBleue);
+    padding-left: 8px;
+}
+.accueil-contact p 
+{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.accueil-contact p:first-child
+{
+    margin-bottom: 14px;
+}
+
+.accueil-contact *
+{
+    color: white;
+    font-size: 14px;
+}
+.contact-button
+{
+    color: var(--couleurMarron);
+    border: 3px solid var(--couleurMarron);
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: var(--couleurTransparent);
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.contact-button:hover
+{
+    color: var(--couleurVert);
+    border: 3px solid var(--couleurVert);
+}
+section
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+#information
+{
+    background: url(trianglebottom.svg)no-repeat center bottom -1px/100%;
+    background-color: var(--couleurArgent);
+    padding-top: 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#Portfolio
+{
+    background:url(triangletop.svg)no-repeat center top/100%;
+    background-color: var(--couleurArgent);
+    padding-bottom: 80px;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0px;
+}
+
+.separateur
+{
+    background-color: black;
+    height: 1px;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+}
+
+#information p
+{
+font-size: 22px;
+color: #656565;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.float-left
+{
+    float:left;
+}
+
+.barre-verticale
+{
+height: 100px;
+width: 4px;
+background-color: var(--couleurBleuFonce);
+margin-right: 10px;
+}
+
+.col.portfolio
+{
+    width: 45%;
+}
+.img-projet
+{
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+}
+
+
+.ligne
+{
+    float: left;
+}
+
+.contenu
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.contenu:hover
+{
+    background-color: black;
+}
+
+.colonnes-cards
+{
+    padding: 3% 2%;
+    text-align: center;
+}
